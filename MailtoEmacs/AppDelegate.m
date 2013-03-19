@@ -38,10 +38,7 @@
     [task setArguments: arguments];
     
     [task launch];
-    
-    while ([task isRunning]) {
-        sleep(1);
-    }
+    [task waitUntilExit];
     
     exit(0);
 }
