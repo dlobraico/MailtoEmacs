@@ -28,6 +28,17 @@
 	<string>Copyright © 2013 Dominick LoBraico. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>mailto URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mailto</string>
+			</array>
+		</dict>
+	</array>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>
